@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated outputs
+output.json
+dev_out.json
+usage.jsonl
+
+# Challenge data
+data/
+*.jsonl
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
